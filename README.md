@@ -37,14 +37,9 @@ Ensure that you have set up your Kaggle API credentials before running the above
    cd lending-club-loan-defaulters
    ```
 
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Download the dataset using the Kaggle API and ensure it is stored in the correct path specified in the notebook.
 
-3. Download the dataset using the Kaggle API and ensure it is stored in the correct path specified in the notebook.
-
-4. Open and run the Jupyter notebook:
+3. Open and run the Jupyter notebook:
    ```bash
    jupyter notebook lending-club-loan-defaulters-prediction.ipynb
    ```
