@@ -37,9 +37,14 @@ Ensure that you have set up your Kaggle API credentials before running the above
    cd lending-club-loan-defaulters
    ```
 
-2. Download the dataset using the Kaggle API and ensure it is stored in the correct path specified in the notebook.
+2. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. Open and run the Jupyter notebook:
+3. Download the dataset using the Kaggle API and ensure it is stored in the correct path specified in the notebook.
+
+4. Open and run the Jupyter notebook:
    ```bash
    jupyter notebook lending-club-loan-defaulters-prediction.ipynb
    ```
@@ -47,5 +52,13 @@ Ensure that you have set up your Kaggle API credentials before running the above
 ## Model and Analysis
 The notebook contains detailed steps for data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and evaluation metrics.
 
----
+## Final Results
+The following are the final model performance metrics based on the ROC-AUC score:
 
+- **Random Forest**: ROC-AUC Score = 0.725
+- **XGBoost**: ROC-AUC Score = 0.734
+- **Artificial Neural Networks (ANN)**: ROC-AUC Score = 0.905
+
+The ANN model demonstrated the highest performance, making it the preferred model for predicting loan default risks.
+
+---
