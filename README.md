@@ -1,4 +1,4 @@
-# Lending Club Loan Defaulters Prediction
+# Loan Default Risk Prediction
 
 ## Project Overview
 This project aims to analyze and predict loan default risks using Lending Club data. By utilizing machine learning models, we explore various factors that influence default risk, which can help Lending Club and similar financial institutions make informed lending decisions. 
