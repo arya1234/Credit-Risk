@@ -33,7 +33,7 @@ Ensure that you have set up your Kaggle API credentials before running the above
 ## How to Run the Project
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/arya1234/Credit-Risk.git
    cd lending-club-loan-defaulters
    ```
 
